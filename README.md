@@ -45,6 +45,6 @@ catch "will azure actually accept this" - for that you need a real cluster.
 package if you want to `crossplane xpkg build` the whole thing. Not required
 for just reading the code though.
 
-Other repos in the platform: [backstage-idp](../backstage-idp) ·
-[idp-gitops](../idp-gitops) · [terraform-modules](../terraform-modules) ·
-[platform-docs](../platform-docs)
+Other repos in the platform: [backstage-idp](https://github.com/efekaya-devops/backstage-idp) ·
+[idp-gitops](https://github.com/efekaya-devops/idp-gitops) · [terraform-modules](https://github.com/efekaya-devops/terraform-modules) ·
+[platform-docs](https://github.com/efekaya-devops/platform-docs)
