@@ -1,7 +1,6 @@
-# the "flagship" blueprint - one claim, four resources wired together
-# (plan -> web app, insights -> web app). this is basically what a real
-# platform team's bread-and-butter module looks like, the others in this
-# repo are simplified versions of the same idea
+# four resources wired together (plan -> web app, insights -> web app). 
+# this is basically what a real platform team's module looks like
+
 apiVersion: apiextensions.crossplane.io/v1
 kind: Composition
 metadata:

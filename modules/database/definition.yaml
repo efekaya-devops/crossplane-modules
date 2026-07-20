@@ -38,8 +38,6 @@ spec:
                 skuName:
                   type: string
                   default: B_Standard_B1ms
-                # this is the field the composition branches on - see the
-                # go-templating step for what changes when it flips
                 allowPublicAccess:
                   type: boolean
                   default: false

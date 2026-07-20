@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# renders every module's composition against its example claim. catches the
-# dumb stuff (bad fieldpaths, typos in the yaml) before it hits a pr.
+# renders every module's compsition against its example claim. catches the
 # needs: crossplane cli + docker running
 set -uo pipefail
 cd "$(dirname "$0")/.."

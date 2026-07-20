@@ -29,11 +29,6 @@ spec:
             patches:
               - fromFieldPath: spec.resourceGroupName
                 toFieldPath: metadata.name
-              # pin external-name to the name we're setting above, not whatever
-              # azure hands back after create. without this a slow/async create
-              # can leave external-name empty and the whole thing wedges later
-              # (learned this one the hard way, see the crossplane repo for the
-              # full incident writeup if you care)
               - fromFieldPath: spec.resourceGroupName
                 toFieldPath: metadata.annotations[crossplane.io/external-name]
               - fromFieldPath: spec.location

@@ -23,11 +23,6 @@ the next reconcile tries to create the resource AGAIN, and Crossplane trips
 a safety lock that blocks not just create but *delete* too. Seen it happen on
 a function app, took a while to figure out.
 
-Not every resource wants a plain-name external-name though -
-`SubnetNetworkSecurityGroupAssociation` and the `Microsoft.Web/sites` family
-(web apps, function apps) both expect something else (a full resource id).
-Check the provider docs / just try it before assuming the pattern from
-`resourcegroup` applies everywhere.
 
 ## running the checks
 
@@ -47,4 +42,4 @@ for just reading the code though.
 
 Other repos in the platform: [backstage-idp](https://github.com/efekaya-devops/backstage-idp) ·
 [idp-gitops](https://github.com/efekaya-devops/idp-gitops) · [terraform-modules](https://github.com/efekaya-devops/terraform-modules) ·
-[platform-docs](https://github.com/efekaya-devops/platform-docs)
+

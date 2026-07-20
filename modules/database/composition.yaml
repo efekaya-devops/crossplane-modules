@@ -1,6 +1,3 @@
-# the p&t function can't conditionally skip a resource, so once you need
-# "create this thing only if X" you reach for go-templating instead. here:
-# a firewall rule that only gets created when allowPublicAccess is true.
 apiVersion: apiextensions.crossplane.io/v1
 kind: Composition
 metadata:
